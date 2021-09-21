@@ -1,0 +1,74 @@
+<resources>
+
+    <!--application name-->
+    <string name="app_name">Arabalar</string>
+
+    <!--tab name-->
+    <string name="tab_recent">Feed</string>
+    <string name="tab_category">Videolar</string>
+    <string name="tab_wallpaper">Kağıtlar</string>
+    <string name="tab_sound">Sesler</string>
+
+    <!--navigation drawer menu name-->
+    <string name="drawer_recent">Feed</string>
+    <string name="drawer_category">Araba Videoları</string>
+    <string name="drawer_category_wallpapers">Araba Duvar Kağıtları</string>
+    <string name="drawer_category_sounds">Araba Sesleri</string>
+    <string name="drawer_favorite">Favori</string>
+    <string name="drawer_separator_name">Diğer</string>
+    <string name="drawer_rate">Oyla</string>
+    <string name="drawer_more">Daha Fazla</string>
+    <string name="drawer_share">Paylaş</string>
+    <string name="drawer_about">Hakkında</string>
+    <string name="drawer_open">Menüyü Aç</string>
+    <string name="drawer_close">Menüyü Kapat</string>
+
+    <!--network & error message-->
+    <string name="network_required">Video İzlemek İçin İnternet Bağlantısı Gerekli!</string>
+    <string name="failed_title_text">Üzgünüm!</string>
+    <string name="failed_text">İnternet bağlantısı bulunamadı. Lütfen bağlantınızı kontrol edin ve tekrar deneyin!</string>
+    <string name="failed_connect_network">Internet Bağlantısı Yok!!</string>
+    <string name="no_internet_text">Internet Bağlantısı Yok!</string>
+    <string name="no_category_found">Kategori Bulunamadı!!</string>
+    <string name="no_post_found">Aramaya devam etmek istiyorsanız, lütfen başka bir kelime ile tekrar deneyin!</string>
+    <string name="search_not_available_title">Sonraki Versiyonu Bekleyin</string>
+    <string name="search_not_available">Arama özelliği sonraki versiyonda aktif hale getirilecek. Lütfen, yeni versiyonlarda olmasını istediğiniz özellikleri bize bildirin.</string>
+    <string name="msg_search_input">Anahtar Kelime Girin</string>
+    <string name="failed_unknown_err">Beklenmeyen hata oluştu! Lütfen daha sonra tekrar deneyin</string>
+    <string name="toast_saved">Duvar kağıdı şuraya kaydedildi : #</string>
+    <string name="toast_saved_failed">Üzgünüm! Duvar kağıdı kaydedilemedi</string>
+    <string name="toast_wallpaper_set">Duvar kağıdın güncellendi!</string>
+    <string name="toast_wallpaper_set_failed">Üzgünüm! Duvar kağıdın güncellenemedi</string>
+
+    <!--favorite-->
+    <string name="favorite_add">Favorilere ekle</string>
+    <string name="favorite_remove">Favorilerden sil</string>
+    <string name="favorite_added">Favorilere eklendi</string>
+    <string name="favorite_removed">Favorilerden silindi</string>
+    <string name="no_favorite_found">Favori listen boş. Favori listene henüz hiç içerik kaydetmemişsin</string>
+
+    <!--dialog choose option-->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_read_more">Daha Fazla</string>
+    <string name="dialog_dismiss">İptal</string>
+
+    <!--others-->
+    <string name="share_text">Bu uygulamayı mutlaka kullanmalısın. Uygulamanın indirme linkini gönderiyorum</string>
+    <string name="whops">Whoops!</string>
+    <string name="press_again_to_exit">Çıkmak için tekrar dokunun</string>
+    <string name="btn_retry">Tekrar Dene</string>
+    <string name="search">Ara</string>
+    <string name="share">Paylaş</string>
+    <string name="menu_share">Paylaş</string>
+
+    <string name="feed_button_fav">Fav</string>
+    <string name="feed_button_share">Share</string>
+    <string name="feed_button_setwp">Set</string>
+    <string name="feed_button_download">Down</string>
+    <string name="feed_button_wait">Wait</string>
+
+    <!--error messages-->
+    <string name="error_setwp">Duvar kağıdın güncellenemedi. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="error_download">Duvar kağıdı indirilemedi. Lütfen daha sonra tekrar deneyin.</string>
+
+</resources>

@@ -1,0 +1,68 @@
+<resources>
+
+    <!--application name-->
+    <string name="app_name">Car Wallpapers</string>
+
+    <!--tab name-->
+    <string name="tab_recent">Feed</string>
+    <string name="tab_category">Videos</string>
+    <string name="tab_wallpaper">Sfondo</string>
+    <string name="tab_sound">Suoni</string>
+
+    <!--navigation drawer menu name-->
+    <string name="drawer_recent">Car Feed</string>
+    <string name="drawer_category">Car Videos</string>
+    <string name="drawer_category_wallpapers">Car Wallpapers</string>
+    <string name="drawer_category_sounds">Car Sounds</string>
+    <string name="drawer_favorite">Preferito</string>
+    <string name="drawer_separator_name">Altro</string>
+    <string name="drawer_rate">Vota</string>
+    <string name="drawer_more">Altro</string>
+    <string name="drawer_share">Condividi</string>
+    <string name="drawer_about">Informazioni</string>
+    <string name="drawer_open">Apri il cassetto di navigazione</string>
+    <string name="drawer_close">Chiudi il cassetto di navigazione</string>
+
+    <!--network & error message-->
+	<string name="network_required">Internet richiesto per riprodurre video!</string>
+    <string name="failed_title_text">Whoops!</string>
+    <string name="failed_text">Nessuna connessione Internet trovata. Controlla la tua connessione o riprova!</string>
+    <string name="failed_connect_network">Nessuna connessione a Internet !!</string>
+    <string name="no_internet_text">Nessuna connessione Internet!</string>
+    <string name="no_category_found">​​Nessuna categoria trovata !!</string>
+    <string name="no_post_found">​​se vuoi continuare la ricerca, prova a inserire un\'altra parola chiave!</string>
+    <string name="search_not_available_title">Versione successiva.</string>
+    <string name="search_not_available">La ricerca sarà abilitata nella prossima versione. Inviaci i tuoi nuovi suggerimenti sulle funzionalità per ottenere la migliore app per sfondi per auto</string>
+    <string name="msg_search_input">Inserisci la parola chiave</string>
+    <string name="failed_unknown_err">Si è verificato un errore sconosciuto! Per favore, riprova più tardi</string>
+    <string name="toast_saved">Sfondo salvato in #</string>
+    <string name="toast_saved_failed">Siamo spiacenti! Impossibile salvare lo sfondo</string>
+    <string name="toast_wallpaper_set">Sfondo aggiornato!</string>
+    <string name="toast_wallpaper_set_failed">Siamo spiacenti! Impossibile impostare lo sfondo</string>
+    
+    <!--favorite-->
+    <string name="favorite_add">Aggiungi ai preferiti</string>
+    <string name="favorite_remove">Rimuovi dai preferiti</string>
+    <string name="favorite_added">Aggiunto ai preferiti</string>
+    <string name="favorite_removed">Rimosso dal preferito</string>
+    <string name="no_favorite_found">​​Il tuo elenco di preferiti è vuoto perché non aggiungi video nel menu preferito</string>
+
+    <!--dialog choose option-->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_read_more">Leggi di più</string>
+    <string name="dialog_dismiss">Ignora</string>
+
+    <!--others-->
+    <string name="share_text">Vorrei condividere questo con te. Qui puoi scaricare questa applicazione dal PlayStore</string>
+    <string name="whops">Whoops!</string>
+    <string name="press_again_to_exit">Premi di nuovo per uscire dall\'app</string>
+    <string name="btn_retry">Riprova</string>
+    <string name="search">Cerca</string>
+    <string name="share">Condividi</string>
+    <string name="menu_share">Condividi</string>
+
+    <!--error messages-->
+    <string name="error_setwp">Impossibile impostare lo sfondo. Per favore, riprova più tardi.</string>
+    <string name="error_download">Impossibile scaricare lo sfondo. Per favore, riprova più tardi.</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<resources>
+    <!--application name-->
+	<string name="app_name"> Fondos de coches </string>
+
+    <!--tab name-->
+     <string name="tab_recent">Feed</string>
+     <string name="tab_category">Videos</string>
+     <string name="tab_wallpaper">Fondos</string>
+     <string name="tab_sound">Sonidos</string>
+
+    <!--navigation drawer menu name-->
+     <string name="drawer_recent">Alimentación de autos</string>
+     <string name="drawer_category">Videos de autos</string>
+     <string name="drawer_category_wallpapers">Fondos de coches</string>
+     <string name="drawer_category_sounds">Sonidos de autos</string>
+     <string name="drawer_favorite">Favorito</string>
+     <string name="drawer_separator_name">Otro</string>
+     <string name="drawer_rate">Rate</string>
+     <string name="drawer_more">Más</string>
+     <string name="drawer_share">Compartir</string>
+     <string name="drawer_about">Acerca de</string>
+     <string name="drawer_open">Abrir el cajón de navegación</string>
+     <string name="drawer_close">Cerrar el cajón de navegación</string>
+
+    <!--network & error message-->
+	<string name="network_required">Requiere Internet para reproducir video</string>
+    <string name="no_internet_text">¡Sin conexión a Internet!</string>
+    <string name="no_category_found">​¡No se ha encontrado ninguna categoría!</string>
+    <string name="no_post_found">si desea continuar la búsqueda, intente ingresar otra palabra clave</string>
+    <string name="search_not_available_title">Siguiente versión.</string>
+    <string name="search_not_available">La búsqueda se habilitará en la próxima versión. Envíenos sus nuevas sugerencias de funciones para obtener la mejor aplicación de fondo de pantalla para automóvil</string>
+    <string name="msg_search_input">Insertar palabra clave</string>
+    <string name="toast_saved">Fondo de pantalla guardado en # </string>
+    <string name="toast_saved_failed">¡Lo siento! Error al guardar el fondo de pantalla</string>
+    <string name="toast_wallpaper_set">¡Fondo de pantalla actualizado!</string>
+    <string name="toast_wallpaper_set_failed">¡Lo siento! No se puede establecer el fondo de pantalla</string>
+
+    <!--favorite-->
+	 <string name="favorite_add">Agregar a favoritos</string>
+     <string name="favorite_remove">Eliminar de favoritos</string>
+     <string name="favorite_added">Agregado a Favoritos</string>
+     <string name="favorite_removed">Eliminado de Favoritos</string>
+     <string name="no_favorite_found">Su lista de favoritos está vacía porque no agrega ningún video en el menú favorito</string>
+
+    <!--dialog choose option-->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_read_more">Leer más</string>
+    <string name="dialog_dismiss">Descartar</string>
+
+    <!--others-->
+     <string name="share_text">Me gustaría compartir esto con usted. Aquí puede descargar esta aplicación desde PlayStore</string>
+     <string name="whops">¡Vaya!</string>
+     <string name="press_again_to_exit">Presione nuevamente para salir de la aplicación</string>
+     <string name="btn_retry">Reintentar</string>
+     <string name="search">Buscar</string>
+     <string name="share">Compartir</string>
+     <string name="menu_share">Compartir</string>
+
+    <!--error messages-->
+	<string name="error_setwp">No se puede establecer el fondo de pantalla. Por favor, intente nuevamente más tarde.</string>
+    <string name="error_download">No se puede descargar el fondo de pantalla. Por favor, intente nuevamente más tarde.</string>
+
+</resources>

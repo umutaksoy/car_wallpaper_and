@@ -1,0 +1,67 @@
+<resources>
+    <!--application name-->
+	<string name="app_name">Papéis de parede para carros</string>
+
+    <!--tab name-->
+     <string name="tab_recent">Feed</string>
+     <string name="tab_category">Vídeos</string>
+     <string name="tab_wallpaper">Paredes</string>
+     <string name="tab_sound">Sons</string>
+
+    <!--navigation drawer menu name-->
+     <string name="drawer_recent">Feed de carro</string>
+     <string name="drawer_category">Vídeos de carros</string>
+     <string name="drawer_category_wallpapers">Papéis de parede para carros</string>
+     <string name="drawer_category_sounds">Sons de carros</string>
+     <string name="drawer_favorite">Favorito</string>
+     <string name="drawer_separator_name">Outro</string>
+     <string name="drawer_rate">Taxa</string>
+     <string name="drawer_more">Mais</string>
+     <string name="drawer_share">Compartilhar</string>
+     <string name="drawer_about">Sobre</string>
+     <string name="drawer_open">Abra a gaveta de navegação</string>
+     <string name="drawer_close">Feche a gaveta de navegação</string>
+
+    <!--network & error message-->
+    <string name="network_required">Internet necessária para reproduzir o vídeo!</string>
+    <string name="failed_title_text">Opa!</string>
+    <string name="failed_text">Nenhuma conexão à Internet encontrada. Verifique sua conexão ou tente novamente!</string>
+    <string name="failed_connect_network">Sem conexão à Internet !!</string>
+    <string name="no_internet_text">Sem conexão à Internet!</string>
+    <string name="no_category_found">​​Nenhuma categoria encontrada !!</string>
+    <string name="no_post_found">​​se você quiser continuar a pesquisa, tente inserir outra palavra-chave!</string>
+    <string name="search_not_available_title">Próxima versão.</string>
+    <string name="search_not_available">A pesquisa será ativada na próxima versão. Envie suas sugestões de novos recursos para obter o melhor aplicativo de papel de parede para carro</string>
+    <string name="msg_search_input">Insira a palavra-chave</string>
+    <string name="failed_unknown_err">Erro desconhecido! Por favor, tente novamente mais tarde</string>
+    <string name="toast_saved">Papel de parede salvo em #</string>
+    <string name="toast_saved_failed">Desculpe! Falha ao salvar o papel de parede</string>
+    <string name="toast_wallpaper_set">Papel de parede atualizado!</string>
+    <string name="toast_wallpaper_set_failed">Desculpe! Não foi possível definir o papel de parede</string>
+
+    <!--favorite-->
+    <string name="favorite_add">Adicionar aos favoritos</string>
+    <string name="favorite_remove">Remover dos favoritos</string>
+    <string name="favorite_added">Adicionado aos favoritos</string>
+    <string name="favorite_removed">Removido do favorito</string>
+    <string name="no_favorite_found">​​Sua lista de favoritos está vazia porque você não adicionou vídeos no menu favorito</string>
+
+    <!--dialog choose option-->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_read_more">Leia mais</string>
+    <string name="dialog_dismiss">Ignorar</string>
+
+    <!--others-->
+    <string name="share_text">Gostaria de compartilhar isso com você. Aqui você pode baixar este aplicativo da PlayStore</string>
+    <string name="whops">Opa!</string>
+    <string name="press_again_to_exit">Pressione novamente para sair do aplicativo</string>
+    <string name="btn_retry">Repetir</string>
+    <string name="search">Pesquisa</string>
+    <string name="share">Compartilhar</string>
+    <string name="menu_share">Compartilhar</string>
+
+    <!--error messages-->
+    <string name="error_setwp">Não foi possível definir o papel de parede. Por favor, tente novamente mais tarde.</string>
+    <string name="error_download">Não foi possível baixar o papel de parede. Por favor, tente novamente mais tarde.</string>
+
+</resources>

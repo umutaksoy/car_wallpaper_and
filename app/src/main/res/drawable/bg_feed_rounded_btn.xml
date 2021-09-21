@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape android:shape="rectangle">
+            <stroke android:color="#EF625B" android:width="5dp" />
+            <solid android:color="#EF625B"/>
+            <size android:width="32dp" android:height="32dp"/>
+            <!-- Here is the corner radius -->
+            <corners android:radius="@dimen/feed_button_corner_radius" >
+            </corners>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:color="#E62117" android:width="5dp" />
+            <solid android:color="#E62117"/>
+            <size android:width="32dp" android:height="32dp"/>
+            <!-- Here is the corner radius -->
+            <corners android:radius="@dimen/feed_button_corner_radius" >
+            </corners>
+        </shape>
+    </item>
+</selector>

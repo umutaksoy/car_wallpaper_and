@@ -1,0 +1,74 @@
+<resources>
+
+    <!--application name-->
+	<string name="app_name">Fonds d\'écran</string>
+
+    <!--tab name-->
+     <string name="tab_recent">Flux</string>
+     <string name="tab_category">Vidéos</string>
+     <string name="tab_wallpaper">Fonds</string>
+     <string name="tab_sound">Sons</string>
+
+    <!--navigation drawer menu name-->
+     <string name="drawer_recent">Alimentation de la voiture</string>
+     <string name="drawer_category">Vidéos de voitures</string>
+     <string name="drawer_category_wallpapers">Fonds d\'écran de voitures</string>
+     <string name="drawer_category_sounds">Sons de voiture</string>
+     <string name="drawer_favorite">Favori</string>
+     <string name="drawer_separator_name">Autre</string>
+     <string name="drawer_rate">Rate</string>
+     <string name="drawer_more">Plus</string>
+     <string name="drawer_share">Partager</string>
+     <string name="drawer_about">À propos de</string>
+     <string name="drawer_open">Ouvrir le tiroir de navigation</string>
+     <string name="drawer_close">Fermer le tiroir de navigation</string>
+
+    <!--network & error message-->
+	<string name="network_required">Internet requis pour lire la vidéo!</string>
+    <string name="failed_title_text">Oups!</string>
+    <string name="failed_text">Aucune connexion Internet trouvée. Vérifiez votre connexion ou réessayez!</string>
+    <string name="failed_connect_network">Pas de connexion Internet !!</string>
+    <string name="no_internet_text">Pas de connexion Internet!</string>
+    <string name="no_category_found">​​Aucune catégorie trouvée !!</string>
+    <string name="no_post_found">​​si vous souhaitez continuer la recherche, essayez d\'entrer un autre mot clé!</string>
+    <string name="search_not_available_title">Version suivante.</string>
+    <string name="search_not_available">La recherche sera activée dans la prochaine version. Envoyez-nous vos nouvelles suggestions de fonctionnalités pour obtenir la meilleure application de fond d\'écran de voiture</string>
+    <string name="msg_search_input">Veuillez insérer le mot clé</string>
+    <string name="failed_unknown_err">Une erreur inconnue s\'est produite! Veuillez réessayer plus tard</string>
+    <string name="toast_saved">Papier peint enregistré sous #</string>
+    <string name="toast_saved_failed">Désolé! Échec de la sauvegarde du papier peint</string>
+    <string name="toast_wallpaper_set">Le papier peint a été mis à jour!</string>
+    <string name="toast_wallpaper_set_failed">Désolé! Impossible de définir le papier peint</string>
+
+    <!--favorite-->
+	<string name="favorite_add">Ajouter aux favoris</string>
+    <string name="favorite_remove">Supprimer du favori</string>
+    <string name="favorite_added">ajouté aux favoris</string>
+    <string name="favorite_removed">Supprimé du favori</string>
+    <string name="no_favorite_found">​​Votre liste de favoris est vide car vous n’ajoutez aucune vidéo dans le menu des favoris</string>
+
+    <!--dialog choose option-->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_read_more">En savoir plus</string>
+    <string name="dialog_dismiss">Ignorer</string>
+
+    <!--others-->
+    <string name="share_text">Je voudrais partager ceci avec vous. Ici, vous pouvez télécharger cette application à partir du PlayStore</string>
+    <string name="whops">Whoops!</string>
+    <string name="press_again_to_exit">Appuyez de nouveau sur pour quitter l\'application</string>
+    <string name="btn_retry">Réessayer</string>
+    <string name="search">Rechercher</string>
+    <string name="share">Partager</string>
+    <string name="menu_share">Partager</string>
+
+    <string name="feed_button_fav">Fav</string>
+    <string name="feed_button_share">Partager</string>
+    <string name="feed_button_setwp">Définir</string>
+    <string name="feed_button_download">vers le bas</string>
+    <string name="feed_button_wait">Wait</string>
+
+    <!--error messages-->
+    <string name="error_setwp">Impossible de définir le papier peint. Veuillez réessayer plus tard.</string>
+    <string name="error_download">Impossible de télécharger le papier peint. Veuillez réessayer plus tard.</string>
+
+</resources>

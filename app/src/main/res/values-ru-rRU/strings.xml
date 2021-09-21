@@ -1,0 +1,66 @@
+<resources>
+    <!--application name-->
+	<string name="app_name">Обои для машины</string>
+
+    <!--tab name-->
+    <string name="tab_recent">лента</string>
+     <string name="tab_category">Видео</string>
+     <string name="tab_wallpaper">Стены</string>
+     <string name="tab_sound">Звуки</string>
+
+    <!--navigation drawer menu name-->
+     <string name="drawer_recent">Автомобильная лента</string>
+     <string name="drawer_category">Автомобильные видео</string>
+     <string name="drawer_category_wallpapers">Обои для автомобилей</string>
+     <string name="drawer_category_sounds">Звуки автомобилей</string>
+     <string name="drawer_favorite">Избранное</string>
+     <string name="drawer_separator_name">Другое</string>
+     <string name="drawer_rate">Оценить</string>
+     <string name="drawer_more">Подробнее</string>
+     <string name="drawer_share">Поделиться</string>
+     <string name="drawer_about">О программе</string>
+     <string name="drawer_open">Открыть навигационный ящик</string>
+     <string name="drawer_close">Закрыть ящик навигации</string>
+
+    <!--network & error message-->
+	<string name="network_required">Требуется Интернет для воспроизведения видео!</string>
+    <string name="failed_title_text">К сожалению!</string>
+    <string name="failed_text">Интернет-соединения не найдены. Проверьте соединение или попробуйте еще раз!</string>
+    <string name="failed_connect_network">Нет подключения к Интернету !!</string>
+    <string name="no_internet_text">Нет подключения к Интернету!</string>
+    <string name="no_category_found">​​Категория не найдена !!</string>
+    <string name="no_post_found">​​если вы хотите продолжить поиск, попробуйте ввести другое ключевое слово!</string>
+    <string name="search_not_available_title">Следующая версия.</string>
+    <string name="msg_search_input">Пожалуйста, введите ключевое слово</string>
+    <string name="failed_unknown_err">Произошла неизвестная ошибка! Пожалуйста, попробуйте позже</string>
+    <string name="toast_saved">Обои сохранены в #</string>
+    <string name="toast_saved_failed">Извините! Не удалось сохранить обои</string>
+    <string name="toast_wallpaper_set">Обои обновлены!</string>
+    <string name="toast_wallpaper_set_failed">Извините! Невозможно установить обои</string>
+
+    <!--favorite-->
+    <string name="favorite_add">Добавить в избранное</string>
+    <string name="favorite_remove">Удалить из избранного</string>
+    <string name="favorite_added">Добавлено в избранное</string>
+    <string name="favorite_removed">Удалено из избранного</string>
+    <string name="no_favorite_found">​​Ваш список избранных пуст, потому что вы не добавляете видео в избранное меню</string>
+
+    <!--dialog choose option-->
+    <string name="dialog_ok">ОК</string>
+    <string name="dialog_read_more">Подробнее</string>
+    <string name="dialog_dismiss">Уволить</string>
+
+    <!--others-->
+    <string name="share_text">Я хотел бы поделиться этим с вами. Здесь вы можете скачать это приложение из PlayStore</string>
+    <string name="whops">К сожалению!</string>
+    <string name="press_again_to_exit">Нажмите еще раз, чтобы выйти из приложения</string>
+    <string name="btn_retry">Retry</string>
+    <string name="search">Search</string>
+    <string name="share">Поделиться</string>
+    <string name="menu_share">Поделиться</string>
+
+    <!--error messages-->
+    <string name="error_setwp">Невозможно установить обои. Пожалуйста, попробуйте позже.</string>
+    <string name="error_download">Невозможно загрузить обои. Пожалуйста, попробуйте позже.</string>
+
+</resources>

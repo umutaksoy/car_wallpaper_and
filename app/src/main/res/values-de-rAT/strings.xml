@@ -1,0 +1,67 @@
+<resources>
+    <!--application name-->
+	<string name="app_name">Autotapeten</string>
+
+    <!--tab name-->
+     <string name="tab_recent">Feed</string>
+     <string name="tab_category">Videos</string>
+     <string name="tab_wallpaper">Autotapeten</string>
+     <string name="tab_sound">Sounds</string>
+
+    <!--navigation drawer menu name-->
+     <string name="drawer_recent">Auto-Feed</string>
+     <string name="drawer_category">Autovideos</string>
+     <string name="drawer_category_wallpapers">Autotapeten</string>
+     <string name="drawer_category_sounds">Autoklänge</string>
+     <string name="drawer_favorite">Favorit</string>
+     <string name="drawer_separator_name">Andere</string>
+     <string name="drawer_rate">Rate</string>
+     <string name="drawer_more">Mehr</string>
+     <string name="drawer_share">Freigeben</string>
+     <string name="drawer_about">Info</string>
+     <string name="drawer_open">Navigationsleiste öffnen</string>
+     <string name="drawer_close">Navigationsleiste schließen</string>
+
+    <!--network & error message-->
+	<string name="network_required">Erforderliches Internet zum Abspielen von Videos!</string>
+    <string name="failed_title_text">Hoppla!</string>
+    <string name="failed_text">Keine Internetverbindung gefunden. Überprüfen Sie Ihre Verbindung oder versuchen Sie es erneut!</string>
+    <string name="failed_connect_network">Keine Internetverbindung !!</string>
+    <string name="no_internet_text">Keine Internetverbindung!</string>
+    <string name="no_category_found">​​Keine Kategorie gefunden !!</string>
+    <string name="no_post_found">​​Wenn Sie die Suche fortsetzen möchten, geben Sie bitte ein anderes Keyword ein!</string>
+    <string name="search_not_available_title">Nächste Version.</string>
+    <string name="search_not_available">Die Suche wird in der nächsten Version aktiviert. Bitte senden Sie uns Ihre Vorschläge für neue Funktionen, um die beste App für Autotapeten zu erhalten.</string>
+    <string name="msg_search_input">Bitte geben Sie ein Schlüsselwort ein</string>
+    <string name="failed_unknown_err">Es ist ein unbekannter Fehler aufgetreten! Bitte versuchen Sie es später noch einmal</string>
+    <string name="toast_saved">Hintergrundbild gespeichert unter #</string>
+    <string name="toast_saved_failed">Entschuldigung! Fehler beim Speichern des Hintergrundbilds</string>
+    <string name="toast_wallpaper_set">Hintergrundbild aktualisiert!</string>
+    <string name="toast_wallpaper_set_failed">Entschuldigung! Hintergrundbild</string> kann nicht festgelegt werden
+	
+    <!--favorite-->
+	<string name="favorite_add">Zu Favoriten hinzufügen</string>
+    <string name="favorite_remove">Aus Favoriten entfernen</string>
+    <string name="favorite_added">Zu Favoriten hinzugefügt</string>
+    <string name="favorite_removed">Wurde aus dem Favoriten entfernt</string>
+    <string name="no_favorite_found">​​Ihre Favoritenliste ist leer, da Sie im Favoritenmenü keine Videos hinzufügen</string>
+
+    <!--dialog choose option-->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_read_more">Weitere Informationen</string>
+    <string name="dialog_dismiss">Schließen</string>
+
+    <!--others-->
+    <string name="share_text">Ich möchte dies mit Ihnen teilen. Hier können Sie diese Anwendung von PlayStore</string> herunterladen
+    <string name="whops">Hoppla!</string>
+    <string name="press_again_to_exit">Drücken Sie erneut, um die App zu beenden</string>
+    <string name="btn_retry">Wiederholen</string>
+    <string name="search">Suche</string>
+    <string name="share">Teilen</string>
+    <string name="menu_share">Freigeben</string>
+
+    <!--error messages-->
+    <string name="error_setwp">Hintergrundbild kann nicht festgelegt werden. Bitte versuchen Sie es später erneut.</string>
+    <string name="error_download">Das Hintergrundbild kann nicht heruntergeladen werden. Bitte versuchen Sie es später erneut.</string>
+
+</resources>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="@color/colorCardView"
+    app:cardCornerRadius="3dp"
+    card_view:cardElevation="3sp"
+    card_view:cardPreventCornerOverlap="false"
+    card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/feed_item_margin"
+            android:layout_marginRight="@dimen/feed_item_margin"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_parent_rounded_corner"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/feed_item_padding_top_bottom"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/video_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text="Title"
+                android:textColor="@color/colorText"
+                android:textSize="16sp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+                android:paddingRight="@dimen/feed_item_status_pad_left_right"
+                android:paddingTop="5dp"/>
+
+            <TextView
+                android:id="@+id/category_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Category"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingBottom="5dp"
+                android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+                android:paddingRight="@dimen/feed_item_status_pad_left_right"
+                />
+
+            <RelativeLayout
+                android:id="@+id/feed_rlyt"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:gravity="center"
+                android:keepScreenOn="true">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:id="@+id/lyt_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorWhite"
+                    app:mrl_rippleAlpha="0.2"
+                    app:mrl_rippleColor="@color/colorRipple"
+                    app:mrl_rippleHover="true"
+                    app:mrl_rippleOverlay="false">
+
+                    <ImageView
+                        android:id="@+id/video_thumbnail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_thumbnail" />
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <ImageView
+                    android:id="@+id/video_play_button"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:alpha="0.8"
+                    android:src="@drawable/ic_thumbnail_video" />
+
+                <com.pierfrancescosoffritti.youtubeplayer.player.YouTubePlayerView
+                    android:id="@+id/youtube_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:visibility="gone"
+                    />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="1dp"
+                    android:paddingTop="3dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="25"
+                    android:gravity="center">
+                <Button
+                    android:id="@+id/feed_fav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_margin="3dp"
+                    android:gravity="left|center_vertical"
+                    android:background="@drawable/bg_feed_rounded_btn"
+                    android:drawableStart="@drawable/ic_favorite_outline_white"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="1dp"
+                    android:clickable="true"
+                    android:text="@string/feed_button_fav"
+                    android:textColor="#FFFFFF"
+                    app:borderWidth="0dp"
+                    app:fabSize="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="25"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/feed_share"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_margin="3dp"
+                        android:gravity="left|center_vertical"
+                        android:background="@drawable/bg_feed_rounded_btn"
+                        android:drawableStart="@drawable/ic_share"
+                        android:drawablePadding="5dp"
+                        android:paddingLeft="1dp"
+                        android:clickable="true"
+                        android:text="@string/feed_button_share"
+                        android:textColor="#FFFFFF"
+                        app:borderWidth="0dp"
+                        app:fabSize="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="25"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/feed_download"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_margin="3dp"
+                        android:gravity="left|center_vertical"
+                        android:background="@drawable/bg_feed_rounded_btn"
+                        android:drawableStart="@drawable/ic_drawer_download"
+                        android:drawablePadding="5dp"
+                        android:paddingLeft="1dp"
+                        android:clickable="true"
+                        android:text="@string/feed_button_download"
+                        android:textColor="#FFFFFF"
+                        app:borderWidth="0dp"
+                        app:fabSize="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="25"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/feed_setwp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_margin="3dp"
+                        android:gravity="left|center_vertical"
+                        android:background="@drawable/bg_feed_rounded_btn"
+                        android:drawableStart="@drawable/ic_drawer_wp"
+                        android:drawablePadding="5dp"
+                        android:paddingLeft="1dp"
+                        android:clickable="true"
+                        android:text="@string/feed_button_setwp"
+                        android:textColor="#FFFFFF"
+                        app:borderWidth="0dp"
+                        app:fabSize="normal" />
+                </LinearLayout>
+<!--
+                    <TextView
+                        android:id="@+id/views"
+                        android:layout_width="0dp"
+                        android:layout_weight="40"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/feed_item_profile_name"
+                        android:textStyle="bold"
+                        android:text="500 Views"/>
+
+                    <TextView
+                        android:id="@+id/favorite"
+                        android:layout_width="0dp"
+                        android:layout_weight="30"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/feed_item_profile_name"
+                        android:textStyle="bold"
+                        android:text="Favorite"/>
+
+                    <TextView
+                        android:id="@+id/share"
+                        android:layout_width="0dp"
+                        android:layout_weight="30"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/feed_item_profile_name"
+                        android:textStyle="bold"
+                        android:text="Share"/>
+
+-->
+                </LinearLayout>
+
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>

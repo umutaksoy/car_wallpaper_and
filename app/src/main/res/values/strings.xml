@@ -1,0 +1,138 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation" >
+    <!--application name-->
+    <string name="app_name">Car Wallpapers</string>
+
+    <!--tab name-->
+    <string name="tab_recent">Feed</string>
+    <string name="tab_category">Videos</string>
+    <string name="tab_wallpaper">Walls</string>
+    <string name="tab_sound">Sounds</string>
+
+    <!--AdMob-->
+    <string name="admob_publisher_id">pub-6171542161395210</string>
+    <string name="admob_app_id">ca-app-pub-6171542161395210~4983244466</string>
+    <string name="admob_banner_unit_id">ca-app-pub-6171542161395210/2574866685</string>
+    <string name="new_admob_interstitial_unit_id">ca-app-pub-6171542161395210/2383294990</string>
+
+    <!-- youtube -->
+    <string name="youtube_api_key">AIzaSyCbehD6DCeDZHaGl8SUWKh1koTiHwKcvKY</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <!--onesignal -->
+    <string name="onesignal_app_id">996606dd-dd04-48cd-b380-76a1ec46b204</string>
+    <string name="onesignal_rest_api_key">OTRmOTBjMDItZjQxMC00YzhjLWFlMWQtM2NmMmQwOTBkNjBk</string>
+
+    <!--analytics event names and parameter names-->
+    <string name="fire_event_search">searchkeywords</string>
+    <string name="fire_event_fav">fav</string>
+    <string name="fire_event_share">share</string>
+    <string name="fire_event_download">download</string>
+    <string name="fire_event_setwp">setwp</string>
+    <string name="fire_event_play">play</string>
+    <string name="fire_event_favnumsegvid">favnumsegvid</string>
+    <string name="fire_event_favnumsegwall">favnumsegwall</string>
+    <string name="fire_event_sharenumsegvid">sharenumsegvid</string>
+    <string name="fire_event_sharenumsegwall">sharenumsegwall</string>
+    <string name="fire_event_downumsegvid">downumsegvid</string>
+    <string name="fire_event_downumsegwall">downumsegwall</string>
+    <string name="fire_event_setnumsegvid">setnumsegvid</string>
+    <string name="fire_event_setnumsegwall">setnumsegwall</string>
+    <string name="fire_event_playnumsegvid">playnumsegvid</string>
+    <string name="fire_param_search">keyword</string>
+    <string name="fire_param_type">type</string>
+    <string name="fire_param_category">category</string>
+    <string name="fire_param_url">url</string>
+    <string name="fire_param_numseg">numseg</string>
+
+    <!--navigation drawer menu name-->
+    <string name="drawer_recent">Car Feed</string>
+    <string name="drawer_category">Car Videos</string>
+    <string name="drawer_category_wallpapers">Car Wallpapers</string>
+    <string name="drawer_category_sounds">Car Sounds</string>
+    <string name="drawer_favorite">Favorite</string>
+    <string name="drawer_separator_name">Other</string>
+    <string name="drawer_rate">Rate</string>
+    <string name="drawer_more">More</string>
+    <string name="drawer_share">Share</string>
+    <string name="drawer_about">About</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- play store application link i.e more apps -->
+    <string name="play_more_apps">https://play.google.com/store/apps/developer?id=Solodroid</string>
+    <string name="privacy_policy_url">https://docs.google.com/document/d/1tKeN0OViQYtyP1K-5iutnE0reQfGg5ZdDJHQbmgONn0/edit?usp=sharing</string>
+
+    <!--app about information-->
+    <string name="about_app_name">Application Name</string>
+    <string name="about_app_version">Build Version</string>
+    <string name="about_app_email">Email</string>
+    <string name="about_app_copyright">Copyright</string>
+    <string name="about_app_rate">Rate</string>
+    <string name="about_app_more">More</string>
+    <string name="about_app_privacy_policy">Terms &amp; Policies</string>
+    <string name="sub_about_app_version">Version 1.19.11.25</string>
+    <string name="sub_about_app_email">help@ksystudios.com</string>
+    <string name="sub_about_app_copyright">Copyright &#169; 2019 Car Galaxy \n All rights reserved</string>
+    <string name="sub_about_app_rate">Give your rate and feedback</string>
+    <string name="sub_about_app_more">More apps from developer</string>
+    <string name="sub_about_app_privacy_policy">Terms &amp; Policies of Car Galaxy App</string>
+
+    <!--network & error message-->
+    <string name="network_required">Required Internet to Play Video!</string>
+    <string name="failed_title_text">Whoops!</string>
+    <string name="failed_text">No internet connections found. Check your connection or try again!</string>
+    <string name="failed_connect_network">No Internet Connection!!</string>
+    <string name="no_internet_text">No Internet Connection!</string>
+    <string name="no_category_found">No category found!!</string>
+    <string name="no_post_found">if you want to continue search, please try enter another keyword!</string>
+    <string name="search_not_available_title">Next Version.</string>
+    <string name="search_not_available">Searching will be enable in next version. Please, send your new feature suggestions to us to get best car wallpaper app</string>
+    <string name="msg_search_input">Please Insert Keyword</string>
+    <string name="failed_unknown_err">Unknown error occured! Please, try again later</string>
+    <string name="toast_saved">Wallpaper saved to #</string>
+    <string name="toast_saved_failed">Sorry! Failed to save wallpaper</string>
+    <string name="toast_wallpaper_set">Wallpaper updated!</string>
+    <string name="toast_wallpaper_set_failed">Sorry! Unable to set wallpaper</string>
+
+    <!--favorite-->
+    <string name="favorite_add">Add to Favorite</string>
+    <string name="favorite_remove">Remove from Favorite</string>
+    <string name="favorite_added">Added to Favorite</string>
+    <string name="favorite_removed">Removed from Favorite</string>
+    <string name="no_favorite_found">Your favorite list is empty because you don\'t add any videos in the favorite menu</string>
+
+    <!--package validation-->
+    <string name="msg_validate">Unfortunately, your applicationId or package name is not registered.\n\nplease login to your admin panel and register your applicationId or package name in settings menu in the admin panel to continue using app.</string>
+
+    <!--dialog choose option-->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_read_more">Read More</string>
+    <string name="dialog_dismiss">Dismiss</string>
+
+    <!--others-->
+    <string name="share_text">I Would like to share this with you. Here You Can Download This Application from PlayStore</string>
+    <string name="whops">Whoops!</string>
+    <string name="press_again_to_exit">Press again to exit app</string>
+    <string name="video_count_text">video(s)</string>
+    <string name="views_count">views</string>
+    <string name="btn_retry">Retry</string>
+    <string name="search">Search</string>
+    <string name="search_text">Search&#8230;</string>
+    <string name="share">Share</string>
+    <string name="menu_share">Share</string>
+
+    <string name="feed_button_fav">Fav</string>
+    <string name="feed_button_share">Share</string>
+    <string name="feed_button_setwp">Set</string>
+    <string name="feed_button_download">Down</string>
+    <string name="feed_button_wait">Wait</string>
+
+    <string name="feed_post_total_pages">TotalPostPages</string>
+
+    <!--error messages-->
+    <string name="error_setwp">Unable to set wallpaper. Please, try again later.</string>
+    <string name="error_download">Unable to download the wallpaper. Please, try again later.</string>
+
+</resources>
